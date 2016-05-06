@@ -1,0 +1,43 @@
+{
+  "name": "space-trader",
+  "version": "1.0.0",
+  "description": "space trading game",
+  "main": "index.js",
+  "dependencies": {
+    "jspm": "^0.16.34"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2",
+    "jspm": "^0.16.34"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eegzapp/space-trader.git"
+  },
+  "author": "eegz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eegzapp/space-trader/issues"
+  },
+  "homepage": "https://github.com/eegzapp/space-trader#readme",
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.5.5",
+      "traceur": "github:jmcriffey/bower-traceur@^0.0.108"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

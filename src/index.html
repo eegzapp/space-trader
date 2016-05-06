@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+  <script src="angular.min.js"></script>
+  <script src="src.min.js"></script>
+</head>
+
+<body>
+
+  <script src="system.js"></script>
+  <script>
+    System.config({
+      baseURL: '/'
+    });
+    
+    System.import('main.js');
+    
+    System.config({
+      transpiler: 'babel',
+      map: {
+        babel: 'browser.js'
+      },
+      babelOptions: {}
+    });
+    
+  </script>
+
+  <div ng-app="HelloWorldApp">
+    <div ng-controller="HelloWorldController">
+      <h1>{{greeting}}</h1>
+    </div>
+  </div>
+
+</body>
+
+</html>
